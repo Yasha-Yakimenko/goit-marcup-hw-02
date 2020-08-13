@@ -170,44 +170,52 @@ footer a {
 /* -=P O R T F O L I O=- */
 
 .filters button {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
   background-color: var(--features-bg-color);
   color: var(--main-txt-color);
+
+/* -=P O R T F O L I O=- */
+
+.filters button {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	background-color: var(--features-bg-color);
+	color: var(--main-txt-color);
 }
 .filters button:hover,
 .filters button:focus {
-  background-color: var(--accent-color);
-  color: var(--over-txt-color);
+	background-color: var(--accent-color);
+	color: var(--over-txt-color);
 }
 
 .portfolio h3 {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
 }
 .description {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--sec-txt-color);
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.03em;
+	color: var(--sec-txt-color);
 }
 .filters .selected {
-  background-color: var(--accent-color);
-  color: var(--over-txt-color);
+	background-color: var(--accent-color);
+	color: var(--over-txt-color);
 }
 .portfolio a {
-  color: var(--main-txt-color);
-  text-decoration: none;
+	color: var(--main-txt-color);
+	text-decoration: none;
 }
 .porfolio .overlay {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.55;
-  letter-spacing: 0.03em;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.55;
+	letter-spacing: 0.03em;
 }
